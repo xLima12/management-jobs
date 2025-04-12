@@ -2,7 +2,7 @@ name: Management Jobs Application
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   build:
