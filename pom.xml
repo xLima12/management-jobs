@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>br.com.codenoir</groupId>
 	<artifactId>management-jobs</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>management-jobs</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
