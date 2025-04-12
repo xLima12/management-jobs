@@ -20,6 +20,6 @@ jobs:
       - name: Login docker
         run: docker login -u ${{secrets.DOCKER_USERNAME}} -p ${{secrets.DOCKER_PASSWORD}}
       - name: Build docker image
-        run: docker build -t xLima12/management_jobs .
+        run: docker build -t xlima12/management_jobs .
       - name: Publish image
-        run: docker push xLima12/management_jobs
+        run: docker push xlima12/management_jobs
